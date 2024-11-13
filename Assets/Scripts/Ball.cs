@@ -18,6 +18,7 @@ public class BallController : MonoBehaviour
 
     void OnMouseDown()
     {
+        GameManager.Instance.ScoreUp();
         Destroy(gameObject);
     }
 }
